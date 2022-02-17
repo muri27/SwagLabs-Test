@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Buy Product,,,,2022-02-16 18:56:38,2022-02-16 18:59:45,3m - 7.323s,FAILED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 18:56:41,2022-02-16 18:58:08,1m - 27.362s,PASSED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 18:56:42,2022-02-16 18:57:16,33.869s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 18:57:16,2022-02-16 18:57:18,2.038s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-16 18:57:18,2022-02-16 18:57:49,30.850s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-16 18:57:49,2022-02-16 18:58:05,15.822s,PASSED
+driver = getDriver(),,,,2022-02-16 18:58:05,2022-02-16 18:58:05,0.000s,PASSED
+driver.resetApp(),,,,2022-02-16 18:58:05,2022-02-16 18:58:08,3.062s,PASSED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 18:58:08,2022-02-16 18:58:56,48.177s,FAILED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 18:58:08,2022-02-16 18:58:56,48.094s,FAILED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 18:58:56,2022-02-16 18:59:45,48.619s,FAILED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 18:58:56,2022-02-16 18:59:45,48.585s,FAILED

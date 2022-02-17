@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Buy Product,,,,2022-02-16 17:07:56,2022-02-16 17:13:06,5m - 9.201s,ERROR
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 17:08:00,2022-02-16 17:09:26,1m - 26.436s,PASSED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 17:08:01,2022-02-16 17:08:35,33.560s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 17:08:35,2022-02-16 17:08:37,2.035s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-16 17:08:37,2022-02-16 17:09:10,32.776s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-16 17:09:10,2022-02-16 17:09:25,15.284s,PASSED
+closeApplication(),,,,2022-02-16 17:09:25,2022-02-16 17:09:26,0.959s,PASSED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 17:09:26,2022-02-16 17:10:46,1m - 20.014s,ERROR
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 17:09:26,2022-02-16 17:09:53,26.799s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 17:09:53,2022-02-16 17:09:55,2.006s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-16 17:09:55,2022-02-16 17:10:41,45.492s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-16 17:10:41,2022-02-16 17:10:46,5.574s,FAILED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 17:10:46,2022-02-16 17:13:06,2m - 19.211s,ERROR
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 17:10:46,2022-02-16 17:11:37,50.641s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 17:11:37,2022-02-16 17:11:39,2.011s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-16 17:11:39,2022-02-16 17:13:02,1m - 22.485s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-16 17:13:02,2022-02-16 17:13:06,4.049s,FAILED

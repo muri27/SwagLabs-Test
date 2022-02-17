@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Buy Product" time="5.294" tests="3" failures="0" skips="0" errors="3">
+   <testsuite name="TS - Buy Product" tests="3" failures="0" errors="3" time="5.294" skips="0" timestamp="2022-02-16 18:48:56" hostname="Lenovo - Muri" id="Test Suites/TS - Buy Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\Katalon Studio\\Sauce Labs Mobile Test\\Reports\\20220216_184851\\TS - Buy Product\\20220216_184851"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\Katalon Studio\\Sauce Labs Mobile Test\\Reports\\20220216_184851\\TS - Buy Product\\20220216_184851\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - Muri"/>
+         <property name="hostAddress" value="192.168.43.147"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+      </properties>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="1.653" classname="Test Cases/TC - 000 - Swag Labs Master" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+"/>
+         <system-out><![CDATA[2022-02-16 18:48:59 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+
+
+2022-02-16 18:49:00 - [TEST_STEP][PASSED] - com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory: null
+
+2022-02-16 18:49:00 - [TEST_STEP][PASSED] - driver = MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2022-02-16 18:48:59 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="0.29" classname="Test Cases/TC - 000 - Swag Labs Master" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+"/>
+         <system-out><![CDATA[2022-02-16 18:49:01 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+
+
+2022-02-16 18:49:01 - [TEST_STEP][PASSED] - com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory: null
+
+2022-02-16 18:49:01 - [TEST_STEP][PASSED] - driver = MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2022-02-16 18:49:01 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="0.036" classname="Test Cases/TC - 000 - Swag Labs Master" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+"/>
+         <system-out><![CDATA[2022-02-16 18:49:01 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)
+
+
+2022-02-16 18:49:01 - [TEST_STEP][PASSED] - com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory: null
+
+2022-02-16 18:49:01 - [TEST_STEP][PASSED] - driver = MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2022-02-16 18:49:01 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: MobileDriverFactory for class: Script1644990146224
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645012131180.run(TempTestSuite1645012131180.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-16 18:48:56 - [TEST_SUITE][INCOMPLETE] - TS - Buy Product: null]]></system-out>
+      <system-err><![CDATA[2022-02-16 18:48:56 - [TEST_SUITE][INCOMPLETE] - TS - Buy Product: null]]></system-err>
+   </testsuite>
+</testsuites>

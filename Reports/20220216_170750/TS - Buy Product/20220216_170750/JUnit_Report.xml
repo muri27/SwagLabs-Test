@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Buy Product" time="310.652" tests="3" failures="0" skips="0" errors="2">
+   <testsuite name="TS - Buy Product" tests="3" failures="0" errors="2" time="310.652" skips="0" timestamp="2022-02-16 17:07:56" hostname="Lenovo - Muri" id="Test Suites/TS - Buy Product">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 7 (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\Katalon Studio\\Sauce Labs Mobile Test\\Reports\\20220216_170750\\TS - Buy Product\\20220216_170750"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\Katalon Studio\\Sauce Labs Mobile Test\\Reports\\20220216_170750\\TS - Buy Product\\20220216_170750\\appium.log, C:\\Users\\Lenovo\\Katalon Studio\\Sauce Labs Mobile Test\\Reports\\20220216_170750\\TS - Buy Product\\20220216_170750\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - Muri"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="Redmi 7"/>
+         <property name="hostAddress" value="192.168.43.147"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4a90dd0d"/>
+         <property name="deviceName" value="Xiaomi Redmi 7 (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="86.436" classname="Test Cases/TC - 000 - Swag Labs Master" status="PASSED">
+         <system-out><![CDATA[2022-02-16 17:08:00 - [TEST_CASE][PASSED] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master
+
+2022-02-16 17:08:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 001 - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:08:02 - [TEST_CASE][PASSED] - Test Cases/TC - 001 - Login: Test Cases/TC - 001 - Login
+
+2022-02-16 17:08:02 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:08:07 - [MESSAGE][INFO] - Appium server started on port 50,922
+
+2022-02-16 17:08:27 - [MESSAGE][INFO] - Failed to get Android statusbar's information.
+
+2022-02-16 17:08:28 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:08:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Username"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:08:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:32 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Password"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:34 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:08:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Button - Login"), 0): Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:08:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:08:35 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-02-16 17:08:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-16 17:08:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 002 - Products"), ["Total":Total, "Item0":Item0, "Item1":Item1, "Item2":Item2, "Item3":Item3, "Item4":Item4, "Item5":Item5], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:08:37 - [TEST_CASE][PASSED] - Test Cases/TC - 002 - Products: Test Cases/TC - 002 - Products
+
+2022-02-16 17:08:38 - [TEST_STEP][PASSED] - for ([i = 0, i < Total, (i++)]): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:08:38 - [TEST_STEP][PASSED] - if (i == 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:38 - [TEST_STEP][PASSED] - scrollToText(Item0, STOP_ON_FAILURE): Scrolling to text 'Onesie' successfully
+
+2022-02-16 17:08:44 - [MESSAGE][PASSED] - Scrolling to text 'Onesie' successfully
+
+2022-02-16 17:08:44 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item0]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:45 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:08:50 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:08:50 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:08:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:08:51 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:08:53 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:08:53 - [TEST_STEP][PASSED] - else if (i == 1): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:53 - [TEST_STEP][PASSED] - scrollToText(Item1, STOP_ON_FAILURE): Scrolling to text 'Bolt' successfully
+
+2022-02-16 17:08:54 - [MESSAGE][PASSED] - Scrolling to text 'Bolt' successfully
+
+2022-02-16 17:08:54 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item1]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:08:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:08:55 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:08:59 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:08:59 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:09:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:09:01 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:09:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:09:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Product/Image - Cart"), 0): Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:09:04 - [TEST_STEP][PASSED] - scrollToText("CHECKOUT", STOP_ON_FAILURE): Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:09:09 - [MESSAGE][PASSED] - Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:09:09 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - CHECKOUT"), 0): Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:09:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:09:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:09:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 003 - Checkout"), ["FirstName":FirstName, "LastName":LastName, "Pos":Pos], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 003 - Checkout' successfully
+
+2022-02-16 17:09:10 - [TEST_CASE][PASSED] - Test Cases/TC - 003 - Checkout: Test Cases/TC - 003 - Checkout
+
+2022-02-16 17:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - First Name"), FirstName, 0): Text 'Mu' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:09:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:13 - [MESSAGE][PASSED] - Text 'Mu' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - Last Name"), LastName, 0): Text 'Ri' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:09:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:14 - [MESSAGE][PASSED] - Text 'Ri' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:09:14 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/EditText - ZipPostal Code"), Pos, 0): Text '1334' has been set to element 'Object Repository/Checkout/EditText - ZipPostal Code'
+
+2022-02-16 17:09:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:15 - [MESSAGE][PASSED] - Text '1334' has been set to element 'Object Repository/Checkout/EditText - ZipPostal Code'
+
+2022-02-16 17:09:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Button - Continue"), 0): Tapped on element 'Object Repository/Checkout/Button - Continue'
+
+2022-02-16 17:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Button - Continue'
+
+2022-02-16 17:09:17 - [TEST_STEP][PASSED] - scrollToText("FINISH", STOP_ON_FAILURE): Scrolling to text 'FINISH' successfully
+
+2022-02-16 17:09:25 - [MESSAGE][PASSED] - Scrolling to text 'FINISH' successfully
+
+2022-02-16 17:09:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Button - Finish"), 0): Tapped on element 'Object Repository/Checkout/Button - Finish'
+
+2022-02-16 17:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Button - Finish'
+
+2022-02-16 17:09:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 003 - Checkout' successfully
+
+2022-02-16 17:09:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-02-16 17:09:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="80.014" classname="Test Cases/TC - 000 - Swag Labs Master" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-02-16 17:09:26 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-02-16 17:09:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 001 - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:09:26 - [TEST_CASE][PASSED] - Test Cases/TC - 001 - Login: Test Cases/TC - 001 - Login
+
+2022-02-16 17:09:26 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:09:31 - [MESSAGE][INFO] - Appium server started on port 51,235
+
+2022-02-16 17:09:45 - [MESSAGE][INFO] - Failed to get Android statusbar's information.
+
+2022-02-16 17:09:46 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:09:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Username"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:09:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:50 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Password"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:51 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:09:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Button - Login"), 0): Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:09:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:09:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:09:53 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-02-16 17:09:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-16 17:09:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 002 - Products"), ["Total":Total, "Item0":Item0, "Item1":Item1, "Item2":Item2, "Item3":Item3, "Item4":Item4, "Item5":Item5], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:09:55 - [TEST_CASE][PASSED] - Test Cases/TC - 002 - Products: Test Cases/TC - 002 - Products
+
+2022-02-16 17:09:55 - [TEST_STEP][PASSED] - for ([i = 0, i < Total, (i++)]): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:09:55 - [TEST_STEP][PASSED] - if (i == 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:09:55 - [TEST_STEP][PASSED] - scrollToText(Item0, STOP_ON_FAILURE): Scrolling to text 'Jacket' successfully
+
+2022-02-16 17:10:01 - [MESSAGE][PASSED] - Scrolling to text 'Jacket' successfully
+
+2022-02-16 17:10:01 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item0]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:01 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:06 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:06 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:07 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:08 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:10:08 - [TEST_STEP][PASSED] - else if (i == 1): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:08 - [TEST_STEP][PASSED] - scrollToText(Item1, STOP_ON_FAILURE): Scrolling to text 'Red' successfully
+
+2022-02-16 17:10:09 - [MESSAGE][PASSED] - Scrolling to text 'Red' successfully
+
+2022-02-16 17:10:09 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item1]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:10 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:15 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:15 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:16 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:18 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:10:18 - [TEST_STEP][PASSED] - else if (i == 1): null
+
+2022-02-16 17:10:18 - [TEST_STEP][PASSED] - else if (i == 2): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:18 - [TEST_STEP][PASSED] - scrollToText(Item2, STOP_ON_FAILURE): Scrolling to text 'Light' successfully
+
+2022-02-16 17:10:22 - [MESSAGE][PASSED] - Scrolling to text 'Light' successfully
+
+2022-02-16 17:10:22 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item2]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:10:24 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:28 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:10:28 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:10:30 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:10:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Product/Image - Cart"), 0): Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:10:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:10:33 - [TEST_STEP][PASSED] - scrollToText("CHECKOUT", STOP_ON_FAILURE): Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:10:39 - [MESSAGE][PASSED] - Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:10:39 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - CHECKOUT"), 0): Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:10:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:10:41 - [TEST_STEP][FAILED] - callTestCase(findTestCase("TC - 003 - Checkout"), ["FirstName":FirstName, "LastName":LastName, "Pos":Pos], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/TC - 003 - Checkout' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-02-16 17:10:41 - [TEST_CASE][ERROR] - Test Cases/TC - 003 - Checkout: Test Cases/TC - 003 - Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+
+
+2022-02-16 17:10:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - First Name"), FirstName, 0): Text 'Do' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:10:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:44 - [MESSAGE][PASSED] - Text 'Do' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - Last Name"), LastName, 0): Text 'Ni' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:10:46 - [MESSAGE][PASSED] - Text 'Ni' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/EditText - ZipPostal Code"), Pos, 0): null
+
+2022-02-16 17:10:46 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TC - 003 - Checkout' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2022-02-16 17:09:26 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - 000 - Swag Labs Master" time="139.211" classname="Test Cases/TC - 000 - Swag Labs Master" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-02-16 17:10:46 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-02-16 17:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 001 - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:10:46 - [TEST_CASE][PASSED] - Test Cases/TC - 001 - Login: Test Cases/TC - 001 - Login
+
+2022-02-16 17:10:47 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:11:01 - [MESSAGE][INFO] - Failed to get Android statusbar's information.
+
+2022-02-16 17:11:03 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2022-02-16 17:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Username"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:34 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Login/EditText - Username'
+
+2022-02-16 17:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/EditText - Password"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:11:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:36 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Login/EditText - Password'
+
+2022-02-16 17:11:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/Button - Login"), 0): Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button - Login'
+
+2022-02-16 17:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 001 - Login' successfully
+
+2022-02-16 17:11:37 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-02-16 17:11:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-16 17:11:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - 002 - Products"), ["Total":Total, "Item0":Item0, "Item1":Item1, "Item2":Item2, "Item3":Item3, "Item4":Item4, "Item5":Item5], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:11:39 - [TEST_CASE][PASSED] - Test Cases/TC - 002 - Products: Test Cases/TC - 002 - Products
+
+2022-02-16 17:11:39 - [TEST_STEP][PASSED] - for ([i = 0, i < Total, (i++)]): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:11:39 - [TEST_STEP][PASSED] - if (i == 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:39 - [TEST_STEP][PASSED] - scrollToText(Item0, STOP_ON_FAILURE): Scrolling to text 'Backpack' successfully
+
+2022-02-16 17:11:42 - [MESSAGE][PASSED] - Scrolling to text 'Backpack' successfully
+
+2022-02-16 17:11:42 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item0]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:43 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:11:48 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:11:48 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:11:49 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:11:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:11:50 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:11:50 - [TEST_STEP][PASSED] - else if (i == 1): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:50 - [TEST_STEP][PASSED] - scrollToText(Item1, STOP_ON_FAILURE): Scrolling to text 'Jacket' successfully
+
+2022-02-16 17:11:55 - [MESSAGE][PASSED] - Scrolling to text 'Jacket' successfully
+
+2022-02-16 17:11:55 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item1]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:11:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:11:55 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:00 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:00 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:01 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:02 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:12:02 - [TEST_STEP][PASSED] - else if (i == 1): null
+
+2022-02-16 17:12:02 - [TEST_STEP][PASSED] - else if (i == 2): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:02 - [TEST_STEP][PASSED] - scrollToText(Item2, STOP_ON_FAILURE): Scrolling to text 'Light' successfully
+
+2022-02-16 17:12:07 - [MESSAGE][PASSED] - Scrolling to text 'Light' successfully
+
+2022-02-16 17:12:07 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item2]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:07 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:13 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:13 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:13 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:14 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:12:14 - [TEST_STEP][PASSED] - else if (i == 1): null
+
+2022-02-16 17:12:14 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-02-16 17:12:14 - [TEST_STEP][PASSED] - else if (i == 3): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:14 - [TEST_STEP][PASSED] - scrollToText(Item3, STOP_ON_FAILURE): Scrolling to text 'Bolt' successfully
+
+2022-02-16 17:12:19 - [MESSAGE][PASSED] - Scrolling to text 'Bolt' successfully
+
+2022-02-16 17:12:19 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item3]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:19 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:25 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:25 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:25 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - else if (i == 1): null
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - else if (i == 4): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:26 - [TEST_STEP][PASSED] - scrollToText(Item4, STOP_ON_FAILURE): Scrolling to text 'Onesie' successfully
+
+2022-02-16 17:12:28 - [MESSAGE][PASSED] - Scrolling to text 'Onesie' successfully
+
+2022-02-16 17:12:28 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item4]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:29 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:34 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:34 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:35 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - if (i == 0): null
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - else if (i == 1): null
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - else if (i == 5): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:37 - [TEST_STEP][PASSED] - scrollToText(Item5, STOP_ON_FAILURE): Scrolling to text 'Red' successfully
+
+2022-02-16 17:12:38 - [MESSAGE][PASSED] - Scrolling to text 'Red' successfully
+
+2022-02-16 17:12:38 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - Sauce Labs Backpack", ["text":Item5]), 0): Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - Sauce Labs Backpack'
+
+2022-02-16 17:12:39 - [TEST_STEP][PASSED] - scrollToText("ADD TO CART", STOP_ON_FAILURE): Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:45 - [MESSAGE][PASSED] - Scrolling to text 'ADD TO CART' successfully
+
+2022-02-16 17:12:45 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Add To Cart - Detail Item"), 0): Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Add To Cart - Detail Item'
+
+2022-02-16 17:12:45 - [TEST_STEP][PASSED] - tap(findTestObject("Product/Button - Back To Products"), 0): Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Button - Back To Products'
+
+2022-02-16 17:12:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Product/Image - Cart"), 0): Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:12:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:12:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/Image - Cart'
+
+2022-02-16 17:12:49 - [TEST_STEP][PASSED] - scrollToText("CHECKOUT", STOP_ON_FAILURE): Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:13:00 - [MESSAGE][PASSED] - Scrolling to text 'CHECKOUT' successfully
+
+2022-02-16 17:13:00 - [TEST_STEP][PASSED] - tap(findTestObject("Product/TextView - CHECKOUT"), 0): Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/TextView - CHECKOUT'
+
+2022-02-16 17:13:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - 002 - Products' successfully
+
+2022-02-16 17:13:02 - [TEST_STEP][FAILED] - callTestCase(findTestCase("TC - 003 - Checkout"), ["FirstName":FirstName, "LastName":LastName, "Pos":Pos], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/TC - 003 - Checkout' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-02-16 17:13:02 - [TEST_CASE][ERROR] - Test Cases/TC - 003 - Checkout: Test Cases/TC - 003 - Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+
+
+2022-02-16 17:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - First Name"), FirstName, 0): Text 'Bu' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:13:04 - [MESSAGE][PASSED] - Text 'Bu' has been set to element 'Object Repository/Checkout/EditText - First Name'
+
+2022-02-16 17:13:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText - Last Name"), LastName, 0): Text 'Di' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-16 17:13:05 - [MESSAGE][PASSED] - Text 'Di' has been set to element 'Object Repository/Checkout/EditText - Last Name'
+
+2022-02-16 17:13:05 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/EditText - ZipPostal Code"), Pos, 0): null
+
+2022-02-16 17:13:06 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TC - 003 - Checkout' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2022-02-16 17:10:46 - [TEST_CASE][ERROR] - Test Cases/TC - 000 - Swag Labs Master: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-16 17:07:56 - [TEST_SUITE][ERROR] - TS - Buy Product: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-02-16 17:07:56 - [TEST_SUITE][ERROR] - TS - Buy Product: Test Cases/TC - 000 - Swag Labs Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TC - 003 - Checkout' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC - 000 - Swag Labs Master.run(TC - 000 - Swag Labs Master:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645006070827.run(TempTestSuite1645006070827.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject, java.math.BigDecimal, java.lang.Integer) values: [TestObject - 'Object Repository/Checkout/EditText - ZipPostal Code', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int), getText(com.kms.katalon.core.testobject.TestObject, int), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling), getText(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at TC - 003 - Checkout.run(TC - 003 - Checkout:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Buy Product,,,,2022-02-18 00:43:16,2022-02-18 00:48:33,5m - 17.262s,PASSED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-18 00:43:18,2022-02-18 00:44:43,1m - 24.706s,PASSED
+"startApplication(""C:\Users\Lenovo\Katalon Studio\Sauce Labs Mobile Test\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"", false)",,,,2022-02-18 00:43:20,2022-02-18 00:43:41,21.240s,PASSED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-18 00:43:41,2022-02-18 00:43:48,6.979s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-18 00:43:48,2022-02-18 00:43:50,2.022s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Product""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-18 00:43:50,2022-02-18 00:44:22,32.325s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-18 00:44:22,2022-02-18 00:44:37,14.988s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-02-18 00:44:37,2022-02-18 00:44:42,5.017s,PASSED
+closeApplication(),,,,2022-02-18 00:44:42,2022-02-18 00:44:43,0.893s,PASSED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-18 00:44:43,2022-02-18 00:46:15,1m - 31.861s,PASSED
+"startApplication(""C:\Users\Lenovo\Katalon Studio\Sauce Labs Mobile Test\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"", false)",,,,2022-02-18 00:44:43,2022-02-18 00:45:03,19.300s,PASSED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-18 00:45:03,2022-02-18 00:45:07,4.542s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-18 00:45:07,2022-02-18 00:45:09,2.022s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Product""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-18 00:45:09,2022-02-18 00:45:55,46.071s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-18 00:45:55,2022-02-18 00:46:09,14.098s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-02-18 00:46:09,2022-02-18 00:46:14,5.002s,PASSED
+closeApplication(),,,,2022-02-18 00:46:14,2022-02-18 00:46:15,0.726s,PASSED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-18 00:46:15,2022-02-18 00:48:33,2m - 17.822s,PASSED
+"startApplication(""C:\Users\Lenovo\Katalon Studio\Sauce Labs Mobile Test\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"", false)",,,,2022-02-18 00:46:15,2022-02-18 00:46:35,19.595s,PASSED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-18 00:46:35,2022-02-18 00:46:40,4.685s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-18 00:46:40,2022-02-18 00:46:42,2.014s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Product""), [""Total"":Total, ""Item0"":Item0, ""Item1"":Item1, ""Item2"":Item2, ""Item3"":Item3, ""Item4"":Item4, ""Item5"":Item5], STOP_ON_FAILURE)",,,,2022-02-18 00:46:42,2022-02-18 00:48:06,1m - 24.688s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-18 00:48:06,2022-02-18 00:48:27,21.120s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-02-18 00:48:27,2022-02-18 00:48:32,5.011s,PASSED
+closeApplication(),,,,2022-02-18 00:48:32,2022-02-18 00:48:33,0.681s,PASSED

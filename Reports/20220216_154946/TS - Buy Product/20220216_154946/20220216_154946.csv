@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Buy Product,,,,2022-02-16 15:49:51,2022-02-16 15:53:01,3m - 9.287s,ERROR
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 15:49:54,2022-02-16 15:51:04,1m - 9.452s,ERROR
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 15:49:55,2022-02-16 15:50:27,31.773s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 15:50:27,2022-02-16 15:50:29,2.030s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item"":Item], STOP_ON_FAILURE)",,,,2022-02-16 15:50:29,2022-02-16 15:50:59,29.850s,PASSED
+"callTestCase(findTestCase(""TC - 003 - Checkout""), [""FirstName"":FirstName, ""LastName"":LastName, ""Pos"":Pos], STOP_ON_FAILURE)",,,,2022-02-16 15:50:59,2022-02-16 15:51:04,4.613s,FAILED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 15:51:04,2022-02-16 15:51:53,49.234s,FAILED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 15:51:04,2022-02-16 15:51:53,49.199s,FAILED
+,,,,,,,
+Test Cases/TC - 000 - Swag Labs Master,,,,2022-02-16 15:51:53,2022-02-16 15:53:01,1m - 7.484s,FAILED
+"callTestCase(findTestCase(""TC - 001 - Login""), [:], STOP_ON_FAILURE)",,,,2022-02-16 15:51:53,2022-02-16 15:52:18,25.153s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-02-16 15:52:18,2022-02-16 15:52:20,2.014s,PASSED
+"callTestCase(findTestCase(""TC - 002 - Products""), [""Total"":Total, ""Item"":Item], STOP_ON_FAILURE)",,,,2022-02-16 15:52:20,2022-02-16 15:53:01,40.293s,FAILED
